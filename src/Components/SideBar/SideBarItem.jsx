@@ -1,10 +1,11 @@
 import React from 'react';
+import { Wrapper } from './SideBarItem.style';
 
 const SideBarItem = ({img, text}) => {
-    return ( <li>
+    return ( <Wrapper>
         <img src={img} alt=""/>
         <p>{text}</p>
-    </li> );
+    </Wrapper> );
 }
  
 export default SideBarItem;

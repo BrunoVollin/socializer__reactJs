@@ -22,7 +22,6 @@ export const Logo = styled.img`
 
 export const List = styled.ol`
   width: 100%;
-  display: flex;
 
   li{
     display: flex;
